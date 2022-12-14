@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstGalagaTry", "MyFirstGalagaTry\MyFirstGalagaTry.csproj", "{849E613A-79CA-40CB-8802-B50E8E929202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{849E613A-79CA-40CB-8802-B50E8E929202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849E613A-79CA-40CB-8802-B50E8E929202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849E613A-79CA-40CB-8802-B50E8E929202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849E613A-79CA-40CB-8802-B50E8E929202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
