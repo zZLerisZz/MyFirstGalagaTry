@@ -16,11 +16,11 @@ namespace MyFirstGalagaTry
         private Player _player;
         public App() {
             InitializeComponent();
+            _player = new Player(PlayerSprite);
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData) {
-
-                 switch (keyData) {
+            switch (keyData) {
                     case Keys.Left: {
                         if (GamePanel.Visible) {
                             _player.setLeftDirection();
@@ -50,7 +50,6 @@ namespace MyFirstGalagaTry
         private void PlayButton_Click(object sender, EventArgs e) {
             MenuPanel.Visible = false;
             GamePanel.Visible = true;
-            _player = new Player(PlayerSprite);
         }
 
         private void SettingsButton_Click(object sender, EventArgs e) {
@@ -63,7 +62,7 @@ namespace MyFirstGalagaTry
             RecordsPanel.Visible = false;
             SettingsPanel.Visible = false;
             if(GamePanel.Visible)
-                _player.Dispose();
+                _player.returnToBegin();
             GamePanel.Visible = false;
         }
 

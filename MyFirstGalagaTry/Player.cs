@@ -3,8 +3,7 @@ using System.Windows.Forms;
 
 namespace MyFirstGalagaTry
 {
-    public class Player : IDisposable
-    {
+    public class Player {
         private PictureBox playerSprite;
         private int hp = 100;
         private int velocity = 12;
@@ -40,9 +39,11 @@ namespace MyFirstGalagaTry
             }
         }
 
-        public void Dispose() {
+        public void returnToBegin()
+        {
             playerSprite.Left = startPosition[0];
             playerSprite.Top = startPosition[1];
         }
+        
     }
 }

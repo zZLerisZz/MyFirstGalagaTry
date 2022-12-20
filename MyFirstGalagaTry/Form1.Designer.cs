@@ -70,7 +70,7 @@
             // RecordsButton
             // 
             this.RecordsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RecordsButton.Location = new System.Drawing.Point(661, 538);
+            this.RecordsButton.Location = new System.Drawing.Point(439, 399);
             this.RecordsButton.Margin = new System.Windows.Forms.Padding(4);
             this.RecordsButton.Name = "RecordsButton";
             this.RecordsButton.Size = new System.Drawing.Size(385, 78);
@@ -83,7 +83,7 @@
             // SettingsButton
             // 
             this.SettingsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SettingsButton.Location = new System.Drawing.Point(661, 420);
+            this.SettingsButton.Location = new System.Drawing.Point(439, 277);
             this.SettingsButton.Margin = new System.Windows.Forms.Padding(4);
             this.SettingsButton.Name = "SettingsButton";
             this.SettingsButton.Size = new System.Drawing.Size(385, 78);
@@ -96,7 +96,7 @@
             // ExitButton
             // 
             this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ExitButton.Location = new System.Drawing.Point(661, 662);
+            this.ExitButton.Location = new System.Drawing.Point(439, 511);
             this.ExitButton.Margin = new System.Windows.Forms.Padding(4);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(385, 78);
@@ -109,7 +109,7 @@
             // PlayButton
             // 
             this.PlayButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PlayButton.Location = new System.Drawing.Point(661, 302);
+            this.PlayButton.Location = new System.Drawing.Point(439, 166);
             this.PlayButton.Margin = new System.Windows.Forms.Padding(4);
             this.PlayButton.Name = "PlayButton";
             this.PlayButton.Size = new System.Drawing.Size(385, 78);
@@ -124,7 +124,7 @@
             this.MenuName.AutoSize = true;
             this.MenuName.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.MenuName.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MenuName.Location = new System.Drawing.Point(743, 146);
+            this.MenuName.Location = new System.Drawing.Point(510, 46);
             this.MenuName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MenuName.Name = "MenuName";
             this.MenuName.Size = new System.Drawing.Size(223, 69);
@@ -156,7 +156,7 @@
             // 
             // BackToMenu
             // 
-            this.BackToMenu.Location = new System.Drawing.Point(36, 711);
+            this.BackToMenu.Location = new System.Drawing.Point(25, 625);
             this.BackToMenu.Margin = new System.Windows.Forms.Padding(4);
             this.BackToMenu.Name = "BackToMenu";
             this.BackToMenu.Size = new System.Drawing.Size(100, 28);
@@ -218,7 +218,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1685, 838);
+            this.ClientSize = new System.Drawing.Size(1274, 685);
             this.Controls.Add(this.GamePanel);
             this.Controls.Add(this.MenuPanel);
             this.Controls.Add(this.SettingsPanel);
