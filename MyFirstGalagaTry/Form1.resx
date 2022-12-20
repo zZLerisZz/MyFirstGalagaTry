@@ -12486,7 +12486,7 @@
         gg==
 </value>
   </data>
-  <data name="Player.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PlayerSprite.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wgAADsIBFShKgAAAAHNJREFUOE+tjgEOgCAMA3mur+YrWrk6BEyAxIuRtdyM6R9yzp4W2VuQDc5TrE8X
