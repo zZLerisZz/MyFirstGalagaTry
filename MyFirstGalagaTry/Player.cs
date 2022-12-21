@@ -39,10 +39,10 @@ namespace MyFirstGalagaTry
             }
         }
 
-        public void returnToBegin()
-        {
+        public void returnToBegin() {
             playerSprite.Left = startPosition[0];
             playerSprite.Top = startPosition[1];
+            directions[0] = directions[1] = false;
         }
         
     }
