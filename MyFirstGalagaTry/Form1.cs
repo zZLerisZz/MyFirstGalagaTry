@@ -13,30 +13,38 @@ namespace MyFirstGalagaTry
   
     public partial class App : Form
     {
-        private Player _player;
+        private Game gameApp;
         public App() {
             InitializeComponent();
-            _player = new Player(PlayerSprite);
+            gameApp = new Game(new Player(PlayerSprite));
+            TickTimer.Stop();
+            typeof(Control).GetProperty("DoubleBuffered", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.SetProperty).SetValue(GamePanel, true, null);
+            typeof(Control).GetProperty("DoubleBuffered", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.SetProperty).SetValue(MenuPanel, true, null);
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData) {
             switch (keyData) {
                     case Keys.Left: {
-                        if (GamePanel.Visible) {
-                            _player.setLeftDirection();
+                        if (GamePanel.Visible && TickTimer.Enabled) {
+                            gameApp.playerMoveLeft();
                         }
                     } break;
                     case Keys.Right: {
-                        if (GamePanel.Visible) {
-                            _player.setRightDirection();
+                        if (GamePanel.Visible && TickTimer.Enabled) {
+                            gameApp.playerMoveRight();
                         }
                     } break;
                     case Keys.Down: {
-                        if (GamePanel.Visible) {
-                            _player.setStop();
+                        if (GamePanel.Visible && TickTimer.Enabled) {
+                            gameApp.playerStop();
                         }
                     }
                     break;
+                    // case Keys.Space: {
+                    //     if (GamePanel.Visible) {
+                    //         gameApp.playerAttack();
+                    //     }
+                    // } break;
                     case Keys.Up: break;
                     default: return base.ProcessCmdKey(ref msg, keyData);
                 }
@@ -61,8 +69,12 @@ namespace MyFirstGalagaTry
             MenuPanel.Visible = true;
             RecordsPanel.Visible = false;
             SettingsPanel.Visible = false;
-            if(GamePanel.Visible)
-                _player.returnToBegin();
+            if (GamePanel.Visible) {
+                TickTimer.Stop();
+                PauseStartButton.Text = "Start";
+                gameApp.EndGame();
+            }
+
             GamePanel.Visible = false;
         }
 
@@ -72,9 +84,28 @@ namespace MyFirstGalagaTry
             
         }
 
-        private void MovePlayer(object sender, EventArgs e) {
-            if(GamePanel.Visible)
-                _player.move();
+        private void GameUpdate(object sender, EventArgs e) {
+            if (GamePanel.Visible) {
+                gameApp.playerAttack();
+                gameApp.Update();
+            }
+            GamePanel.Invalidate();
+        }
+
+        private void GamePanel_Paint(object sender, PaintEventArgs e) {
+            gameApp.drawBullets(e);
+        }
+
+        private void PauseStartButton_Click(object sender, EventArgs e) {
+            if (!TickTimer.Enabled) {
+                TickTimer.Start();
+                PauseStartButton.Text = "Stop";
+            }
+            else {
+                TickTimer.Stop();
+                PauseStartButton.Text = "Start";
+            }
+            PauseStartButton.Parent.Focus();
         }
     }
 }
