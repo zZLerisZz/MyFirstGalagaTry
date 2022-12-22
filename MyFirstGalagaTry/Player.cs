@@ -10,7 +10,7 @@ namespace MyFirstGalagaTry
         private bool[] directions;
         private int[] startPosition;
         private long milliseconds = 0;
-        private int coolDown = 100;
+        private int coolDown = 25;
         public Player(PictureBox sprite) {
             playerSprite = sprite;
             directions = new bool[2];
@@ -35,9 +35,11 @@ namespace MyFirstGalagaTry
         public void move() {
             if (directions[0]) {
                 playerSprite.Left -= velocity;
+                // directions[0] = false;
             }
             if(directions[1]) {
                 playerSprite.Left += velocity;
+                // directions[1] = false;
             }
         }
 

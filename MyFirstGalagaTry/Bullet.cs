@@ -26,5 +26,9 @@ namespace MyFirstGalagaTry {
         public void Update() {
             y -= velocity;
         }
+
+        public void setY(int _y) {
+            y = _y;
+        }
     }
 }

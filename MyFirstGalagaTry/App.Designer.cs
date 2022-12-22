@@ -64,15 +64,15 @@
             this.MenuPanel.Cursor = System.Windows.Forms.Cursors.Default;
             this.MenuPanel.Location = new System.Drawing.Point(0, 0);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(1280, 960);
+            this.MenuPanel.Size = new System.Drawing.Size(1493, 1108);
             this.MenuPanel.TabIndex = 0;
             // 
             // RecordsButton
             // 
             this.RecordsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.RecordsButton.Location = new System.Drawing.Point(482, 481);
+            this.RecordsButton.Location = new System.Drawing.Point(452, 556);
             this.RecordsButton.Name = "RecordsButton";
-            this.RecordsButton.Size = new System.Drawing.Size(289, 63);
+            this.RecordsButton.Size = new System.Drawing.Size(337, 73);
             this.RecordsButton.TabIndex = 8;
             this.RecordsButton.TabStop = false;
             this.RecordsButton.Text = "Рекорды";
@@ -82,9 +82,9 @@
             // SettingsButton
             // 
             this.SettingsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SettingsButton.Location = new System.Drawing.Point(482, 342);
+            this.SettingsButton.Location = new System.Drawing.Point(452, 396);
             this.SettingsButton.Name = "SettingsButton";
-            this.SettingsButton.Size = new System.Drawing.Size(289, 63);
+            this.SettingsButton.Size = new System.Drawing.Size(337, 73);
             this.SettingsButton.TabIndex = 7;
             this.SettingsButton.TabStop = false;
             this.SettingsButton.Text = "Настройки";
@@ -94,9 +94,9 @@
             // ExitButton
             // 
             this.ExitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ExitButton.Location = new System.Drawing.Point(482, 618);
+            this.ExitButton.Location = new System.Drawing.Point(452, 714);
             this.ExitButton.Name = "ExitButton";
-            this.ExitButton.Size = new System.Drawing.Size(289, 63);
+            this.ExitButton.Size = new System.Drawing.Size(337, 73);
             this.ExitButton.TabIndex = 9;
             this.ExitButton.TabStop = false;
             this.ExitButton.Text = "Выход";
@@ -106,9 +106,9 @@
             // PlayButton
             // 
             this.PlayButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PlayButton.Location = new System.Drawing.Point(482, 208);
+            this.PlayButton.Location = new System.Drawing.Point(452, 241);
             this.PlayButton.Name = "PlayButton";
-            this.PlayButton.Size = new System.Drawing.Size(289, 63);
+            this.PlayButton.Size = new System.Drawing.Size(337, 73);
             this.PlayButton.TabIndex = 6;
             this.PlayButton.TabStop = false;
             this.PlayButton.Text = "Играть";
@@ -117,10 +117,11 @@
             // 
             // MenuName
             // 
+            this.MenuName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.MenuName.AutoSize = true;
             this.MenuName.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.MenuName.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MenuName.Location = new System.Drawing.Point(534, 88);
+            this.MenuName.Location = new System.Drawing.Point(529, 104);
             this.MenuName.Name = "MenuName";
             this.MenuName.Size = new System.Drawing.Size(179, 55);
             this.MenuName.TabIndex = 5;
@@ -141,9 +142,10 @@
             // 
             // PauseStartButton
             // 
-            this.PauseStartButton.Location = new System.Drawing.Point(194, 817);
+            this.PauseStartButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PauseStartButton.Location = new System.Drawing.Point(152, 858);
             this.PauseStartButton.Name = "PauseStartButton";
-            this.PauseStartButton.Size = new System.Drawing.Size(75, 23);
+            this.PauseStartButton.Size = new System.Drawing.Size(87, 27);
             this.PauseStartButton.TabIndex = 2;
             this.PauseStartButton.TabStop = false;
             this.PauseStartButton.Text = "Start";
@@ -154,17 +156,18 @@
             // 
             this.PlayerSprite.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PlayerSprite.BackgroundImage")));
             this.PlayerSprite.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PlayerSprite.Location = new System.Drawing.Point(392, 744);
+            this.PlayerSprite.Location = new System.Drawing.Point(599, 775);
             this.PlayerSprite.Name = "PlayerSprite";
-            this.PlayerSprite.Size = new System.Drawing.Size(20, 20);
+            this.PlayerSprite.Size = new System.Drawing.Size(23, 23);
             this.PlayerSprite.TabIndex = 1;
             this.PlayerSprite.TabStop = false;
             // 
             // BackToMenu
             // 
-            this.BackToMenu.Location = new System.Drawing.Point(82, 817);
+            this.BackToMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BackToMenu.Location = new System.Drawing.Point(25, 858);
             this.BackToMenu.Name = "BackToMenu";
-            this.BackToMenu.Size = new System.Drawing.Size(75, 23);
+            this.BackToMenu.Size = new System.Drawing.Size(87, 27);
             this.BackToMenu.TabIndex = 0;
             this.BackToMenu.TabStop = false;
             this.BackToMenu.Text = "BackToMenu";
@@ -177,15 +180,15 @@
             this.SettingsPanel.Controls.Add(this.BackToMenuFromSettings);
             this.SettingsPanel.Location = new System.Drawing.Point(0, 0);
             this.SettingsPanel.Name = "SettingsPanel";
-            this.SettingsPanel.Size = new System.Drawing.Size(1280, 960);
+            this.SettingsPanel.Size = new System.Drawing.Size(1493, 1108);
             this.SettingsPanel.TabIndex = 10;
             this.SettingsPanel.Visible = false;
             // 
             // BackToMenuFromSettings
             // 
-            this.BackToMenuFromSettings.Location = new System.Drawing.Point(593, 277);
+            this.BackToMenuFromSettings.Location = new System.Drawing.Point(692, 320);
             this.BackToMenuFromSettings.Name = "BackToMenuFromSettings";
-            this.BackToMenuFromSettings.Size = new System.Drawing.Size(75, 23);
+            this.BackToMenuFromSettings.Size = new System.Drawing.Size(87, 27);
             this.BackToMenuFromSettings.TabIndex = 0;
             this.BackToMenuFromSettings.Text = "BackToMenuFromSettings";
             this.BackToMenuFromSettings.UseVisualStyleBackColor = true;
@@ -197,14 +200,14 @@
             this.RecordsPanel.Controls.Add(this.BackToMenuFromRecords);
             this.RecordsPanel.Location = new System.Drawing.Point(0, 0);
             this.RecordsPanel.Name = "RecordsPanel";
-            this.RecordsPanel.Size = new System.Drawing.Size(1280, 960);
+            this.RecordsPanel.Size = new System.Drawing.Size(1493, 1108);
             this.RecordsPanel.TabIndex = 10;
             // 
             // BackToMenuFromRecords
             // 
-            this.BackToMenuFromRecords.Location = new System.Drawing.Point(621, 295);
+            this.BackToMenuFromRecords.Location = new System.Drawing.Point(724, 340);
             this.BackToMenuFromRecords.Name = "BackToMenuFromRecords";
-            this.BackToMenuFromRecords.Size = new System.Drawing.Size(75, 23);
+            this.BackToMenuFromRecords.Size = new System.Drawing.Size(87, 27);
             this.BackToMenuFromRecords.TabIndex = 0;
             this.BackToMenuFromRecords.Text = "BackToMenuFromRecords";
             this.BackToMenuFromRecords.UseVisualStyleBackColor = true;
@@ -218,13 +221,14 @@
             // 
             // App
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 921);
+            this.ClientSize = new System.Drawing.Size(1274, 931);
             this.Controls.Add(this.GamePanel);
             this.Controls.Add(this.MenuPanel);
             this.Controls.Add(this.SettingsPanel);
             this.Controls.Add(this.RecordsPanel);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
@@ -239,7 +243,6 @@
             this.SettingsPanel.ResumeLayout(false);
             this.RecordsPanel.ResumeLayout(false);
             this.ResumeLayout(false);
-
         }
     
         #endregion

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
 
 namespace MyFirstGalagaTry
 {
@@ -93,7 +94,7 @@ namespace MyFirstGalagaTry
         }
 
         private void GamePanel_Paint(object sender, PaintEventArgs e) {
-            gameApp.drawBullets(e);
+            gameApp.drawMap(e);
         }
 
         private void PauseStartButton_Click(object sender, EventArgs e) {
