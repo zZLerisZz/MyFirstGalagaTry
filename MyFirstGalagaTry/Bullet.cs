@@ -1,15 +1,14 @@
 ﻿using System.Drawing;
 
 namespace MyFirstGalagaTry {
-    public class Bullet {
-        private Bitmap bulletSprite;
-        private int x, y;
-        private int velocity = 12;
-
+    abstract public class Bullet {
+        protected Bitmap bulletSprite;
+        protected int x, y;
+        protected int velocity;
+        protected int damage;
         public Bullet(int _x, int _y) {
             x = _x;
             y = _y;
-            bulletSprite = new Bitmap(new Bitmap("Sprites\\Bullet.png"), 3, 8);
         }
 
         public int getX() {
@@ -24,11 +23,19 @@ namespace MyFirstGalagaTry {
         }
 
         public void Update() {
-            y -= velocity;
+            y += velocity;
         }
 
         public void setY(int _y) {
             y = _y;
+        }
+
+        public int getDamage() {
+            return damage;
+        }
+
+        public void upgradeBullet(int _v) {
+            velocity += _v;
         }
     }
 }
