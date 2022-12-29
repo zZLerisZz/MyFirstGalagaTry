@@ -1,0 +1,16 @@
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\bin\Debug\MyFirstGalagaTry.exe.config
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\bin\Debug\MyFirstGalagaTry.exe
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\bin\Debug\MyFirstGalagaTry.pdb
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.csproj.AssemblyReference.cache
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.csproj.SuggestedBindingRedirects.cache
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.Properties.Resources.resources
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.csproj.GenerateResource.cache
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.csproj.CoreCompileInputs.cache
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.exe
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.pdb
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.App.resources
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\bin\Debug\Interop.WMPLib.dll
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\Interop.WMPLib.dll
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Leris\RiderProjects\MyFirstGalagaTry\MyFirstGalagaTry\obj\Debug\MyFirstGalagaTry.csproj.ResolveComReference.cache
