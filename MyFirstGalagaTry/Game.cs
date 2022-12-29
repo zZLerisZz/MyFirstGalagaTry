@@ -16,6 +16,7 @@ namespace MyFirstGalagaTry {
         private uint playerScore = 0;
         private int difficulty = 0;
         private String userName = "Player";
+        
         public Game() {
             _player = new Player();
         }

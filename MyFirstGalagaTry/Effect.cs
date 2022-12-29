@@ -9,6 +9,7 @@ namespace MyFirstGalagaTry {
             x = _x;
             y = _y;
             effectSprite = new Bitmap(new Bitmap("Sprites\\Explosion.png"), _width, _height);
+            // effectSprite = new Bitmap(new Bitmap("Sprites\\TestExplosion.png"), _width, _height);
         }
 
         public void Update() {
